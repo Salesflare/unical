@@ -16,6 +16,6 @@
     "async": "^3.1.0",
     "batchelor": "^2.0.2",
     "googleapis": "^39.2.0",
-    "lodash": "^4.17.14"
+    "lodash": "^4.17.19"
   }
 }
