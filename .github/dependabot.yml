@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: googleapis
+    versions:
+    - 67.0.0
+    - 67.1.0
+    - 67.1.1
+    - 68.0.0
+    - 70.0.0
+    - 71.0.0
+    - 72.0.0
+  - dependency-name: "@hapi/boom"
+    versions:
+    - 9.1.1
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
