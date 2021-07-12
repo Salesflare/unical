@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^2.0.12"
   },
   "dependencies": {
     "@hapi/boom": "^7.4.2",
