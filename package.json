@@ -1,6 +1,6 @@
 {
   "name": "@salesflare/unical",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A unified API for calendar access",
   "license": "MIT",
   "main": "lib/index.js",
