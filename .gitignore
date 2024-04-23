@@ -62,3 +62,8 @@ typings/
 .idea
 
 api_creds.js
+
+unical-google-test.js
+unical-main-test.js
+unical-cronofy-test.js
+empty_test.js

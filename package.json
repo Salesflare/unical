@@ -1,21 +1,37 @@
 {
-  "name": "calendarconnector",
-  "version": "1.0.0",
-  "description": "Google Calendar Connector",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "name": "@salesflare/unical",
+  "version": "2.0.0",
+  "description": "A unified API for calendar access",
   "license": "MIT",
+  "main": "lib/index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Salesflare/unical"
+  },
+  "author": "Salesflare Team",
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives --fix --cache --max-warnings 0 .",
+    "test": "npm run lint",
+    "preversion": "npm test"
+  },
+  "engines": {
+    "node": ">=14.16.0"
+  },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "eslint": "^7.32.0",
+    "eslint-config-salesflare": "^5.4.0",
+    "eslint-plugin-node": "^11.1.0",
+    "nodemon": "^2.0.19"
   },
   "dependencies": {
-    "@hapi/boom": "^7.4.2",
-    "async": "^3.1.0",
-    "batchelor": "^2.0.2",
-    "googleapis": "^39.2.0",
-    "lodash": "^4.17.14"
+    "@hapi/boom": "^9.1.4",
+    "async": "^3.2.4",
+    "cronofy": "^3.8.0",
+    "date-fns": "^2.29.1",
+    "googleapis": "^105.0.0",
+    "lodash": "^4.17.21",
+    "simple-oauth2": "1.6.0",
+    "uuid": "^8.3.2"
   }
 }
